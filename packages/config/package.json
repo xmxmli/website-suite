@@ -1,0 +1,11 @@
+{
+  "name": "@email-suite/config",
+  "version": "0.1.0",
+  "private": true,
+  "exports": {
+    "./eslint/base": "./eslint/base.mjs",
+    "./tsconfig/base": "./tsconfig/base.json",
+    "./tsconfig/next": "./tsconfig/next.json",
+    "./tsconfig/react-library": "./tsconfig/react-library.json"
+  }
+}

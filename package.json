@@ -1,0 +1,17 @@
+{
+  "name": "website-suite",
+  "version": "0.1.0",
+  "private": true,
+  "packageManager": "pnpm@11.7.0",
+  "scripts": {
+    "dev": "turbo dev",
+    "dev:website": "pnpm --filter @email-suite/website dev",
+    "dev:dashboard": "pnpm --filter @email-suite/dashboard dev",
+    "build": "turbo build",
+    "lint": "turbo lint",
+    "typecheck": "turbo typecheck"
+  },
+  "devDependencies": {
+    "turbo": "^2.4.4"
+  }
+}
